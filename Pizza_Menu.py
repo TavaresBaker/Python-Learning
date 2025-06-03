@@ -23,6 +23,7 @@ prices = [
 ]
 
 # Combine prices and toppings into a single list
+# I just learned today a way to combine both lists, I hard coded this for no reason. Once I have a script on this repository that shows what im talking about I will update this comment with the name and line #.
 pizza_and_prices = [
     [2, "pepperoni"],
     [6, "pineapple"],
