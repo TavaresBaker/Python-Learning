@@ -12,6 +12,7 @@ name = "Jason"
 question = "Am I tall?"
 
 # There were multiple answers I needed to have available and the best way to do this is a list, so I made one named answers and filed it with the potential responses.
+
 answers = [
     'Yes - definitely',
     'It is decidedly so',
@@ -25,9 +26,11 @@ answers = [
 ]
 
 # Below is the randomization which is used to index. The random.randint(0, 8) gets a random number which becomes the value of random_number. The random_answer variable is different from the answer list for organization however does not necessarily need to be, you could also just print the list with the index of random number.
+
 random_number = random.randint(0, 8)
 random_answer = answers[random_number]
 
 # These print commands are used to display text to the console for humans.
+
 print(f"{name} asks: {question}")
 print(f"The Magic Eight Ball says: {random_answer}")
