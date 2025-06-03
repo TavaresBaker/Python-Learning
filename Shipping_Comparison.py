@@ -1,6 +1,6 @@
 # Ask user for shipping tier and package weight
 
-tier = input('Which tier do you want to go with — "Base" or "Premium"?\n').strip().lower()
+tier = input('Which tier do you want to go with | "Base" or "Premium"?\n').strip().lower()
 weight = float(input("What is the weight of your package?\n"))
 
 # Base shipping rates
