@@ -26,10 +26,10 @@ I’m teaching myself Python, and this repo is my way of tracking progress, stay
 
 ## About Me
 
-I'm Tavares. I do cybersecurity and network stuff, but I’m diving into programming to assist in my classwork, automation, and scripting. This is where I throw all the code while I figure things out.
+I'm Tavares. I like cybersecurity and networking, but I’m diving into programming to assist in my classwork, automation, and scripting. This is where I throw all the code while I figure things out.
 If you ever want to reach out to me, I check my email regularly:
 Tavares.A.Baker@gmail.com
 
 ---
 
-> “Use it, abuse it, learn something from it. That’s the point.”
+> “Use it, abuse it, learn something from it, I don't care regardless. That’s the point.”
