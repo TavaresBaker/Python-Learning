@@ -37,7 +37,7 @@ customer_one_total = lovely_loveseat_price + luxurious_lamp_price
 customer_one_tax = customer_one_total * sales_tax
 customer_one_total += customer_one_tax
 
-# Create a summary of items purchased
+# Create a summary of the items purchased
 
 customer_one_itemization = lovely_loveseat_description + "\n" + luxurious_lamp_description
 
