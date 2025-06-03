@@ -46,5 +46,5 @@ full_gradebook = last_semester_gradebook + gradebook
 
 # Print full gradebook
 
-print("\nFull Gradebook (All Semesters):")
+print("\nFull Gradebook (Every Semester):")
 print(full_gradebook)
