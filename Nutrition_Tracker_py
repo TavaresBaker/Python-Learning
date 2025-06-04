@@ -1,0 +1,47 @@
+print("=== Simple Balanced Diet Tracker ===")
+print("Track how many servings of each food group you've had today.")
+print("Type 'status' to check progress or 'done' to quit.\n")
+
+# Basic food groups and their daily goals
+food_groups = ["Fruits", "Vegetables", "Grains", "Protein", "Dairy"]
+goals = [2, 3, 3, 2, 2]
+intake = [0, 0, 0, 0, 0]
+
+# Main loop
+while True:
+    print("Options: Fruits, Vegetables, Grains, Protein, Dairy")
+    user_input = input("What did you eat? ").capitalize()
+
+    if user_input == "Done":
+        print("\nThanks for tracking. Here's your summary:")
+        break
+
+    elif user_input == "Status":
+        print("\n--- Status ---")
+        for i in range(len(food_groups)):
+            print(food_groups[i] + ": " + str(intake[i]) + "/" + str(goals[i]))
+        print()
+        continue
+
+    found = False
+    for i in range(len(food_groups)):
+        if user_input == food_groups[i]:
+            intake[i] += 1
+            print("✔ Added one serving of " + user_input + ".\n")
+            found = True
+            break
+
+    if not found:
+        print("✘ Not a valid food group. Try again.\n")
+        continue
+
+# End-of-day report
+print("\n=== Daily Report ===")
+for i in range(len(food_groups)):
+    print(food_groups[i] + ": " + str(intake[i]) + "/" + str(goals[i]))
+    if intake[i] >= goals[i]:
+        print("✔ Goal met for " + food_groups[i] + "!\n")
+    else:
+        print("✘ You need more " + food_groups[i] + ".\n")
+
+print("Good job keeping track today!")
